@@ -11,7 +11,7 @@ class _Container3dState extends State<PlayStationUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[800],
       body: Center(
           child: Container(
         height: 100,

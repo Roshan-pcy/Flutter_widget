@@ -1,12 +1,13 @@
 import 'package:all_widgets/3dContianer.dart';
+import 'package:all_widgets/alerttdailogue.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 void main() {
   //enable when u want to show ui in landsacpeMode
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
-  SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
+  // SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
   runApp(const MyApp());
 }
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const Container3d());
+        home: const Alerttdailogue());
   }
 }
 
