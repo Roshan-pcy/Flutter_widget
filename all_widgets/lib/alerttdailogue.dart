@@ -7,7 +7,7 @@ class Alerttdailogue extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 202, 133, 210),
+      backgroundColor: const Color.fromARGB(255, 202, 133, 210),
       body: SingleChildScrollView(
         child: Center(
           child: Padding(
