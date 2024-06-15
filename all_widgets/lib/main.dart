@@ -2,12 +2,14 @@ import 'package:all_widgets/3dContianer.dart';
 import 'package:all_widgets/alerttdailogue.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() {
   //enable when u want to show ui in landsacpeMode
   // WidgetsFlutterBinding.ensureInitialized();
   // SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
   // SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
+  // FlutterNativeSplash.remove();
   runApp(const MyApp());
 }
 
